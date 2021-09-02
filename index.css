@@ -63,7 +63,7 @@ label,
 legend {
     vertical-align: baseline;
     font-family: inherit;
-    font-weight: inherit;
+    /* font-weight: inherit; */
     font-style: inherit;
     font-size: 100%;
     outline: 0;
@@ -146,7 +146,7 @@ a {
 }
 
 span {
-    font-weight: bold;
+    font: bold;
 }
 
 section {
@@ -211,6 +211,22 @@ nav a {
     margin-left: 5%;
 }
 
+.right h1 {
+    margin: 0 0 30px 0;
+}
+
+.right h2 {
+    margin: 20px 0 20px 0;
+}
+
+.titles .right p {
+    width: 60%;
+    padding: 0 10 0 20;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
 .right div {
     position: absolute;
     top: 40%;
@@ -224,6 +240,7 @@ nav a {
 
 .container2 p {
     background-color: #DDB9A3;
+    color: white;
 }
 
 .fireContainer {
@@ -244,9 +261,10 @@ nav a {
     margin-left: auto;
     margin-right: auto;
     width: 15%;
+    margin-bottom: 20px;
 }
 
-.camperWording {
+.container3 .camperWording {
     margin-left: auto;
     margin-right: auto;
     width: 30%;
@@ -254,9 +272,13 @@ nav a {
 
 .emptyContainer {
     width: 100%;
-    background-image: /assets/footer_img.jpg;
-    background-repeat: repeat;
-    background-color: #cccccc;
+    background-image: url('../assets/footer_img.jpg');
+    /* background-repeat: norepeat; */
+    /* box-sizing: border-box; */
+    background-position: center;
+    background-size: 130%;
+    padding: 10% 0 10% 0;
+    border: 1px solid red;
 }
 
 footer {
