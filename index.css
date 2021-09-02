@@ -1,0 +1,286 @@
+/* http://meyer
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend {
+    vertical-align: baseline;
+    font-family: inherit;
+    /* font-weight: inherit; */
+    font-style: inherit;
+    font-size: 100%;
+    outline: 0;
+    padding: 0;
+    margin: 0;
+}
+
+
+/* remember to define focus styles! */
+
+:focus {
+    outline: 0;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+
+/* tables still need cellspacing="0" in the markup */
+
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+caption,
+th,
+td {
+    font-weight: normal;
+    text-align: left;
+}
+
+
+/* remove possible quote marks (") from <q> & <blockquote> */
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: "";
+}
+
+blockquote,
+q {
+    quotes: "" "";
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    border: 1px solid grey;
+    max-width: 100%;
+}
+
+
+/*General styles*/
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    color: #4f4f4f;
+    line-height: 1.5;
+    font-family: 'Roboto Mono', monospace;
+}
+
+h1 {
+    font-family: 'Chelsea Market', cursive;
+    font-size: 5rem;
+}
+
+a {
+    font-family: 'Roboto Mono', monospace;
+    text-decoration: none;
+}
+
+span {
+    font: bold;
+}
+
+section {
+    padding: 4% 0;
+}
+
+
+/*header section styles*/
+
+nav {
+    padding: 2% 0;
+}
+
+nav a {
+    display: inline-block;
+    padding: 1% 0;
+    width: 10%;
+    border-radius: 10px;
+    text-align: center;
+    color: #fff;
+}
+
+.orange {
+    background-color: #FF764E;
+    margin-left: 10%;
+}
+
+.blue {
+    background-color: #5ED3EB;
+    margin: 0 24%
+}
+
+.yellow {
+    background-color: #FFCD69;
+    margin-right: 10%;
+}
+
+
+/*Titles Section Styles*/
+
+.titles {
+    text-align: center;
+    position: relative;
+}
+
+.left,
+.right {
+    display: inline-block;
+}
+
+.left {
+    width: 30%;
+    margin-left: 5%;
+}
+
+.left img {
+    border-radius: 50%;
+}
+
+.right {
+    width: 55%;
+    margin-left: 5%;
+}
+
+.right h1 {
+    margin: 0 0 30px 0;
+}
+
+.right h2 {
+    margin: 20px 0 20px 0;
+}
+
+.titles .right p {
+    width: 60%;
+    padding: 0 10 0 20;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.right div {
+    position: absolute;
+    top: 40%;
+}
+
+.container2 {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container2 p {
+    background-color: #DDB9A3;
+    color: white;
+}
+
+.fireContainer {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    width: 15%;
+}
+
+.fireWording {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    width: 30%;
+}
+
+.camperContainer {
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+    margin-bottom: 20px;
+}
+
+.container3 .camperWording {
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+.emptyContainer {
+    width: 100%;
+    background-image: url('../assets/footer_img.jpg');
+    /* background-repeat: norepeat; */
+    /* box-sizing: border-box; */
+    background-position: center;
+    background-size: 130%;
+    padding: 10% 0 10% 0;
+    border: 1px solid red;
+}
+
+footer {
+    background-color: #F9E7DC;
+}
